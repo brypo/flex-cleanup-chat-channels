@@ -74,7 +74,7 @@ const processAllChannels = async (client, flexChatServiceSid, pageSize, delayTim
             // go to the next page
             page = await page.nextPage()
         }
-        while (page.nextPage != undefined)
+        while (page.nextPageUrl != undefined)
 
         console.log("All chats are closed")
     }
