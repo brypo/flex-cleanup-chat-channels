@@ -8,5 +8,10 @@ For each Channel page, it will filter down to only "ACTIVE" channels and update 
 
 ## Instructions
 1.  Ensure you have the [Twilio Node helper library](https://twilio.com/docs/libraries/reference/twilio-node/) installed
-2.  Update the account variables with your SIDs
-3.  Run `node deactivateAllChannels.js`
+2.  Update the script variables at the top with your specific account identifiers.
+3.  In terminal, navigate to the directory where you saved this file.
+4.  Run `node deactivateAllChannels.js`
+
+## Disclaimer
+
+This software is to be considered "sample code", a Type B Deliverable, and is delivered "as-is" to the user. Twilio bears no responsibility to support the use or implementation of this software.
